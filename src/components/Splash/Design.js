@@ -13,7 +13,7 @@ const SplashDesign = () => {
                     style={styles.imageView} />
             </View>
             <View style={styles.footerContainer}>
-                <Text style={styles.footerView}>{strings.powered_by}</Text>
+                <Text style={styles.footerView}>{strings.footer.powered_by}</Text>
                 <View style={styles.logoContainer}>
                     <Image source={{uri: images.college.logo_square}}  
                     style={styles.logoContent} /> 

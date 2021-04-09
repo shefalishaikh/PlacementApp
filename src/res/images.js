@@ -1,4 +1,9 @@
 const images = {
+    onboarding:{
+        background_image:'https://i.ibb.co/N1xpqpF/background-png.jpg',
+        welcome: 'https://i.ibb.co/QNhBPhz/welcome.jpg',
+        user: 'https://i.ibb.co/5hDphfY/user-male.png',
+    },
     college:{
         logo_square: 'https://i.ibb.co/VStTB3n/college-logo.png',
     },
