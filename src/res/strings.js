@@ -9,18 +9,15 @@ const strings = {
         welcome_admin: 'Welcome Admin',
         welcome_tpo: 'Welcome TPO',
         welcome_student: 'Welcome Student',
+        welcome_signup: 'Signup to continue!',
     },
     textInput:{
+        first_name: 'First Name',
+        last_name: 'Last Name',
         email: 'Email ID',
         password: 'Password',
+        contact: 'Mobile Number',
+        enrollment: 'Enrollment ID',
     },
-    powered_by: 'Powered by Medicaps University',
-    student: 'Student',
-    tpo: 'TPO',
-    admin: 'Admin',
-    welcome: 'Welcome',
-    sign_into_continue: 'Sign into continue!',
-    email: 'Email ID',
-    password: 'Password',
 }
 export default strings;

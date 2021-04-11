@@ -1,9 +1,9 @@
 import React, {useEffect} from 'react';
-import AdminLoginDesign from './Design';
+import UserLoginDesign from './Design';
 
-const AdminLoginActivity = ({navigation}) => {
+const UserLoginActivity = ({navigation}) => {
     return(
-        <AdminLoginDesign />
+        <UserLoginDesign />
     );
 }
-export default AdminLoginActivity;
+export default UserLoginActivity;

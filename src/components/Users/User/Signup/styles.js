@@ -4,7 +4,7 @@ export const styles = StyleSheet.create(
     {  
         scrollView:{
             flexGrow : 1,
-            justifyContent : 'center'
+            justifyContent : 'center',
         },
         mainContainer:{  
             flex:1,
@@ -19,7 +19,8 @@ export const styles = StyleSheet.create(
             
         },
         headerView:{
-            height:50,
+            height:100,
+            justifyContent:'center',
             alignItems:'center',
             marginBottom:30,
         },
@@ -33,7 +34,7 @@ export const styles = StyleSheet.create(
         loginView:{
             padding:20,
             flexDirection:'column',
-            marginTop:35,
+            height: '70%',
         },
         cardIcon:{
             marginTop:-62,
@@ -106,6 +107,9 @@ export const styles = StyleSheet.create(
         spacing15:{
             marginBottom:15
         },
+        spacing5:{
+            marginBottom:5,
+        },
         submitButton:{
             alignItems:'center',
             alignSelf:'center',
@@ -115,6 +119,49 @@ export const styles = StyleSheet.create(
             alignSelf:'center',
         },
         newAccText:{
+            fontWeight:'bold',
+            fontSize: dimensions.font_size.small,
+            color: 'navy',
+        },
+        label:{
+            color:'gray',
+            fontWeight:'bold',
+            fontFamily:'monospace',
+            fontSize: dimensions.font_size.small,
+        },
+        textInputFieldRadio:{
+            marginBottom:5,
+            flexDirection:'row',
+        },
+        textInputFieldRadioButtonView:{
+            marginBottom:5,
+            flexDirection:'row',
+            marginRight:25,
+            alignItems:'center',
+        },
+        pickerView:{
+            borderColor:'darkgray',
+            borderWidth:1.3,
+            borderRadius:4,
+            backgroundColor:'#f6f6f6',
+        },
+        terms:{
+            flexDirection:'row',
+            alignItems:'center'
+        },
+        termsText:{
+            fontWeight:'bold',
+            color:'navy',
+        },
+        loginPage:{
+            flexDirection:'row',
+        },
+        loginPageText:{
+            fontWeight:'bold',
+            fontSize: dimensions.font_size.small,
+            color: 'gray',
+        },
+        loginPageTextLink:{
             fontWeight:'bold',
             fontSize: dimensions.font_size.small,
             color: 'navy',

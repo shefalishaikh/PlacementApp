@@ -17,7 +17,7 @@ const UserDashboardDesign = () => {
                 style={styles.cardView}>
                     <View style={styles.cardContainer}>
                         <View style={styles.imageView}>
-                            <Image source={{uri: images.user_dash.student}}  
+                            <Image source={images.user_dash.student}
                                 style={styles.imageContent} />  
                         </View>
                         <View style={styles.textView}>
@@ -34,7 +34,7 @@ const UserDashboardDesign = () => {
                 style={styles.cardView}>
                     <View style={styles.cardContainer}>
                         <View style={styles.imageView}>
-                            <Image source={{uri: images.user_dash.tpo}}  
+                            <Image source={images.user_dash.tpo}
                                 style={styles.imageContent} /> 
                         </View>
                         <View style={styles.textView}>
@@ -51,7 +51,7 @@ const UserDashboardDesign = () => {
                 style={styles.cardView}>
                     <View style={styles.cardContainer}>
                         <View style={styles.imageView}>
-                            <Image source={{uri: images.user_dash.admin}}  
+                            <Image source={images.user_dash.admin}
                                 style={styles.imageContent} /> 
                         </View>
                         <View style={styles.textView}>
@@ -63,7 +63,7 @@ const UserDashboardDesign = () => {
             <View style={styles.footerContainer}>
                 <Text style={styles.footerView}>{strings.footer.powered_by}</Text>
                 <View style={styles.logoContainer}>
-                    <Image source={{uri: images.college.logo_square}}  
+                    <Image source={images.college.logo_square}
                     style={styles.logoContent} /> 
                 </View>
             </View>
